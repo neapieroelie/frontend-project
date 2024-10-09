@@ -9,7 +9,7 @@
 }
 
 main {
-  flex: 1;
+  width: 75%;
   background-color: white;
   height: 100%;
   overflow: auto;
@@ -29,17 +29,4 @@ html, body, #root {
   align-items: stretch;
 }
 
-.navbar {
-  display: flex;
-  justify-content: flex-start;
-  width: 25%;
-  height: 100vh;
-  flex-direction: column;
-  background-color: rgb(178, 178, 178);
-}
 
-main {
-  
-  background-color: white;
-  height: 100vh;
-}
