@@ -12,12 +12,21 @@
 
 .header {
     display: flex;
+    flex-direction: row;
     align-items: left;
-    padding: 40px 0 0 21px;
+    padding: 40px 0 0 25px;
+    gap: 15px;
+    align-items: center;
 }
 
 .header h1 {
     margin: 0;
+    color: rgb(218, 195, 66);
+}
+
+.logo {
+    width: 40px;
+    height: 35px;
 }
 
 /* Search bar styling */
@@ -63,4 +72,23 @@ input[type="search"]::-webkit-search-cancel-button {
     border: none;
     padding: 15px 0px 15px 30px;
     cursor: pointer;
+}
+
+/* Create listing */
+
+.createlisting {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.createlisting button {
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: rgb(255, 227, 71);
+    border: none;
+    font-weight: 600;
+    color: rgb(28, 28, 28);
 }
