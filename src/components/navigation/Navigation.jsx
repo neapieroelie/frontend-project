@@ -1,4 +1,4 @@
-import styles from './navigation.module.css'
+import styles from './Navigation.module.css'
 
 function Navbar () {
     return (
@@ -24,6 +24,7 @@ function Navbar () {
                         <button>Genres</button>
                         <button>Location</button>
                         <button>Saved books</button>
+                        <button>test</button>
                     </nav>
                 </div>
                 <div className={styles.createlisting}>
