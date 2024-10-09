@@ -19,8 +19,8 @@ function App() {
             <div className="categories">
               <nav>
                 <button>Home</button>
-                <button>Catalog</button>
-                <button>All products</button>
+                <button>Trade</button>
+                <button></button>
                 <button>Wishlist</button>
               </nav>
             </div>
