@@ -1,0 +1,8 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(178, 178, 178);
+  }
