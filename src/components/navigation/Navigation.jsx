@@ -6,7 +6,7 @@ function Navbar () {
             <aside className={styles.navbar}>
                 <div className={styles.header}>
                 <img 
-                    src='logo-pink.png' 
+                    src='logo-white.svg' 
                     className={styles.logo} 
                 />
                     <h1>Peekabook</h1>
