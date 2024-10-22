@@ -1,0 +1,12 @@
+.outerContainer {
+    background-color: white;
+    border: solid 1px lightgray;
+    padding: 1rem 0.5rem;
+    width: 15rem;
+    height: 22rem;
+}
+
+.descContainer {
+    color: black;
+    line-height: 0.5rem;
+}
