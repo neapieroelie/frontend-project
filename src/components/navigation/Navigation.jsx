@@ -19,12 +19,10 @@ function Navbar () {
                 <div className={styles.categories}>
                     <nav>
                         <button>Discover</button>
+                        <button>Book listings</button>
                         <button>My listings</button>
-                        <button>Availability</button>
-                        <button>Genres</button>
-                        <button>Location</button>
-                        <button>Saved books</button>
-                        <button>test</button>
+                        <button>My Loans</button>
+                        <button>Account</button>
                     </nav>
                 </div>
                 <div className={styles.createlisting}>
